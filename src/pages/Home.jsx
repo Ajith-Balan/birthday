@@ -23,12 +23,13 @@ const photos = [
   "/WhatsApp Image 2026-11-20 at 15.07.005.jpeg",
   "/WhatsApp Image 2026-11-20 at 15.07.018.jpeg",
   "/WhatsApp Image 2026-11-20 at 15.07.0189.jpeg",
+  
 ];
 
 
 const party = {
   name: "LIAM",
-  date: "15 August 2026",
+  date: "21 November 2026",
   venue: "St. Mathews Syro-Malabar Church",
   address:
     "Kottackupuram, Athirampuzha Vedagiri Rd, Athirampuzha, Keralam 686562",
@@ -39,7 +40,7 @@ const party = {
 
 
 const backgroundPhotos = [
-  "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=1800",
+  "/WhatsApp Image 2026-11-20 at 15.07.003.jpeg",
   "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?w=1800",
   "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1800",
 ];
@@ -230,7 +231,7 @@ const Home = () => {
             className="inline-flex items-center gap-3 border border-white/40 bg-white/10 backdrop-blur-xl rounded-full px-6 py-3 text-xs md:text-sm tracking-[3px] uppercase"
           >
             <Sparkles size={16} />
-            A Beautiful Little Miracle
+            You are warmly invited to the Baptism of our beloved son
             <Sparkles size={16} />
           </motion.div>
 
@@ -240,7 +241,7 @@ const Home = () => {
             transition={{ delay: 0.5 }}
             className="mt-12 text-lg md:text-2xl tracking-[5px] uppercase text-white/80"
           >
-            Introducing Our Little Prince
+            
           </motion.p>
 
           <motion.h1
@@ -249,7 +250,7 @@ const Home = () => {
             transition={{ duration: 1.4, delay: 0.4 }}
             className="serif text-[90px] sm:text-[130px] md:text-[190px] leading-none font-bold tracking-widest drop-shadow-2xl"
           >
-            LIAM
+            LIAM LITTO
           </motion.h1>
 
           <motion.div
@@ -290,7 +291,7 @@ const Home = () => {
           </motion.div>
 
           <div className="mt-16 text-sm tracking-[4px] text-white/70">
-            15 · 08 · 2026
+            21 · 11 · 2026
           </div>
         </div>
 
@@ -341,23 +342,25 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <p className="uppercase tracking-[5px] text-pink-500 text-xs font-bold">
-              A Story Filled With Love
+              A Journey Of Faith & Grace
             </p>
 
             <h2 className="serif text-5xl md:text-7xl text-slate-800 mt-6 leading-tight">
-              The Day Our
-              <span className="block text-sky-500 italic">World Changed.</span>
+              A New Beginning
+
+              <span className="block text-sky-500 italic">In Christ.</span>
             </h2>
 
             <p className="text-slate-500 leading-8 mt-8 text-lg">
-              On a beautiful day, a little star came into our lives.
-              With tiny fingers and the sweetest smile, LIAM brought
-              happiness beyond words and love beyond measure.
+             Through God's endless love and blessings, our little Liam
+has filled our lives with happiness beyond words.
+
+
             </p>
 
             <p className="text-slate-500 leading-8 mt-5">
-              Every moment with you is a treasure. This is the beginning
-              of a lifetime of beautiful memories.
+             Today, we joyfully celebrate his Holy Baptism, welcoming
+him into a life surrounded by faith, prayer, and God's grace.
             </p>
 
             <div className="mt-10 flex items-center gap-5">
@@ -366,8 +369,8 @@ const Home = () => {
               </div>
 
               <div>
-                <p className="font-bold text-slate-800">Forever Loved</p>
-                <p className="text-sm text-slate-400">Since 15 August 2026</p>
+                <p className="font-bold text-slate-800">Blessed By God's Grace</p>
+                <p className="text-sm text-slate-400"></p>
               </div>
             </div>
           </motion.div>
@@ -392,9 +395,11 @@ const Home = () => {
           <Star size={35} className="mx-auto text-pink-200 mb-8" />
 
           <h2 className="serif text-4xl md:text-7xl leading-tight">
-            "A little person,
+            "Washed by water,
+
             <br />
-            a whole lot of love."
+            blessed by grace,
+and embraced by God's love."
           </h2>
 
           <p className="mt-8 tracking-[5px] uppercase text-sm text-white/70">
@@ -583,11 +588,11 @@ const Home = () => {
               </motion.div>
 
               <h4 className="relative serif text-3xl text-slate-800 mt-8">
-                We Are Waiting!
+                Celebrate With Us!
               </h4>
 
               <p className="relative text-slate-500 text-sm mt-3 max-w-xs">
-                Your presence will make this special day even more memorable.
+                Your presence and prayers will make this blessed day even more special.
               </p>
 
               <a
@@ -694,16 +699,16 @@ const Home = () => {
               </div>
               <div>
                 <h2 className="text-2xl font-black tracking-tight">
-                  AJITH<span className="text-purple-400">.</span>
+                  AJITH & Kiran<span className="text-purple-400">.</span>
                 </h2>
                 <p className="text-xs tracking-[3px] text-gray-400 uppercase">
-                  Freelance Web Creator
+                  Freelance Web Creators
                 </p>
               </div>
             </div>
 
             <p className="text-gray-400 leading-7 max-w-md text-sm">
-              Hi, I'm Ajith Balan. I create modern, responsive and
+              Hi, we are Ajith Balan and Kiran. We create modern, responsive and
               professional websites that help businesses grow online.
               Let's build something amazing together.
             </p>
@@ -742,7 +747,7 @@ const Home = () => {
           {/* Services */}
           <div>
             <h3 className="text-sm font-bold uppercase tracking-widest mb-6">
-              My Services
+              Our Services
             </h3>
 
             <ul className="space-y-4 text-sm text-gray-400">
@@ -790,6 +795,7 @@ const Home = () => {
               className="block mt-5 text-sm text-gray-400 hover:text-pink-400 transition break-all"
             >
               @ajith____b
+            
             </a>
 
             <a
@@ -815,7 +821,7 @@ const Home = () => {
           <p className="text-xs text-gray-500">
             Designed & Developed with <span className="text-red-500">♥</span> by
             <span className="text-purple-400 font-semibold ml-1">
-              Ajith Balan
+              Ajith Balan & Kiran
             </span>
           </p>
 
